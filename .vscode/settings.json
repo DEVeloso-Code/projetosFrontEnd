@@ -45,4 +45,18 @@
     // Enable word wrap at viewport width
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "same"
+    ,
+    "[css]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "css.suggest.basic": true,
+        // Enable color decorators and hover in CSS so hex colors show swatches and color picker
+        "editor.colorDecorators": true,
+        "css.colorDecorators": true,
+        "editor.hover.enabled": true
+    }
 }
