@@ -1,0 +1,48 @@
+{
+    // Complete disable of suggestions and related features for the workspace
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.showWords": false,
+    "editor.suggest.showSnippets": false,
+
+    // Language-specific disables
+    "html.suggest.enabled": false,
+    "css.suggest.basic": false,
+
+    // Disable Emmet expansions and HTML tag completions
+    "emmet.showExpandedAbbreviation": "never",
+    "html.completion.triggerOnTyping": false,
+
+    // Disable parameter hints, hover and color decorators
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.colorDecorators": false,
+    "css.colorDecorators": false,
+    "scss.colorDecorators": false,
+    "less.colorDecorators": false,
+    "css.colorDecorators.enableSwatches": false
+
+    ,"[html]": {
+        // Enable basic tag-name suggestions when typing tag names like 'span'
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        "html.suggest.enabled": true,
+        // Keep snippets and word suggestions off
+        "editor.suggest.showWords": false,
+        "editor.suggest.showSnippets": false,
+        "emmet.showExpandedAbbreviation": "never"
+    }
+    ,
+    // Enable word wrap at viewport width
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "same"
+}

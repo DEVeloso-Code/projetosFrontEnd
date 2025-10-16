@@ -1,0 +1,7 @@
+{
+  // Recommended extensions for this workspace. Installing the Path Intellisense
+  // extension will provide file path completions inside attributes like src/href
+  "recommendations": [
+    "christian-kohler.path-intellisense"
+  ]
+}
