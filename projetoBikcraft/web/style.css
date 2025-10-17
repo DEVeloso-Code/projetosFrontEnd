@@ -45,6 +45,7 @@ p {
     /* o uppercase está tornando todas as letras como maiúsculas no menu sem a necessidade de mexer no html */
     text-transform: uppercase;
 }
+    
 
 .conteudo {
     display: grid;
@@ -107,4 +108,13 @@ p {
 
 .vantagens-item p {
     grid-column: 2;
+}
+
+.rodape {
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
 }
