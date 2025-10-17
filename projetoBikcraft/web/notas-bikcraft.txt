@@ -1,0 +1,6 @@
+Data de início: 15/10/2025
+Encerramento: 17/10/2025
+
+O projeto visa estudar o uso de paddings, display grid e outras funcionalidades do CSS que ajudam a posicionar elementos.
+
+Fernando Veloso
