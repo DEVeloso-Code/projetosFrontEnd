@@ -77,6 +77,12 @@ p {
     justify-items: end;
 }
 
+/* ao colocar h1 dentro de section e article ele é diminuído para se equiparar ao h2, seria feito um algoritimo para ajustar que nunca foi implementado */
+
+.introducao h1 {
+    font-size: 2rem;
+}
+
 /* para controlar o elemento de decoração que está sobreponto a imagem da bicicleta e a dv de bicicletas feitas a mão */
 .detalhe {
     width: 60px;
